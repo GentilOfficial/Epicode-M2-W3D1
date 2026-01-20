@@ -130,10 +130,10 @@ function extra2() {
 */
 
 function codify(string) {
-  if (string.includes("code ")) {
+  if (string.startsWith("code")) {
     return string
   } else {
-    return String("code ").concat(string)
+    return String("code").concat(string)
   }
 }
 
