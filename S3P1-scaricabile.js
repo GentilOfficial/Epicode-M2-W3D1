@@ -1,5 +1,6 @@
 function printResult(id, result) {
   console.log(result)
+  document.getElementById(id).style.display = "block"
   document.getElementById(id).innerHTML = result
 }
 
